@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    transition: all 0.5s ease-in-out;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+#props {
+    display: flex;
+    flex-direction: column;
+    background-color: #cacaca;
+    padding: 1em;
+    width: 50%;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 1em;
+    margin: 1em 0;
+}
+#props * {
+    margin: 0.3em;
+}
+#props div {
+    text-align: center;
+    padding: 0.5em;
+    border-collapse: collapse;
+}
+#props input {
+    padding: 0.5em 0;
+    cursor: pointer;
+    align-self: center;
+    width: 35%;
+}
+#app div {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    text-align: center;
+}
+input {
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    margin: 0.1em 0;
+    border-radius: 0.5em;
+}
+input[value="Premium ?"] {
+    background-color: rgb(0, 69, 173);
+}
+input[value="Masquer"] {
+    background-color: red;
+}
+input[value="Afficher plus"]{
+    background-color: green;
+}
+nav ul{
+    background-color: #cacaca;
+    height: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+li * {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    text-align: center;
+}
+#pokemons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+#pokemons div {
+    width: 20vw;
+    height: 20vw;
+    text-align: center;
+    margin: 1em;
+    border-radius: 20px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#meteo {
+    background-color: #eee;
+    align-self: center;
+    display: flex;
+    height: 50vh;
+    width: 50vw;
+    margin-top: 2em;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 2em;
+}
